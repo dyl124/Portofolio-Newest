@@ -1,0 +1,76 @@
+.aboutMeContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  left: 50%;
+  top: 55%;
+  transform: translate(-50%, -50%);
+  width: 90vw;
+  max-width: 90%;
+  height: auto;
+  max-height: 80vh;
+  overflow-y: auto;
+  background-color: rgba(183, 183, 181, 0.8);
+  color: #f0f0f0;
+  text-align: center;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  border-radius: 5%;
+  z-index: 1;
+}
+
+.aboutMePortrait {
+  width: 8%;
+  border-radius: 50%;
+  margin-bottom: 10px; 
+}
+
+.aboutMeTextContainer {
+  font-size: 1rem;
+  padding: 0 20px;}
+
+
+.restOfFirstLine {
+  color: #ffffffba;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.aboutMeFirstLineBold {
+  color: #ffcc00;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.span1 {
+  color: #88d290;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.aboutMeSpanAlternativeColour {
+  color: #64e3ffa1;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .aboutMeContainer {
+    width: 90vw;
+    max-width: 100%;
+    max-height: 90vh; 
+  }
+
+  .aboutMeTextContainer {
+    font-size: 0.9rem;
+  }
+
+  .restOfFirstLine {
+    font-size: 1.5rem;
+  }
+
+  .aboutMeFirstLineBold {
+    font-size: 1.7rem;
+  }
+}
